@@ -1,0 +1,597 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic2.jpg);
+    
+    
+    height :100vh;
+    background-size: cover;
+    background-position: center;
+}
+*/
+
+
+/*---home_page_section---*/
+
+.reg-nav
+{
+    float: right;
+    
+    list-style: none;
+    margin-top:10px;
+   margin-right:10px;
+
+    
+}
+
+.reg-nav li
+{
+  display: inline-block;
+   
+}
+
+.reg-nav li a
+{
+    color: black;
+    text-decoration: none;
+    
+    font-family: "roboto", sans-serif;
+    font-size: 10px;
+}
+
+.reg-nav li a:hover
+{
+    background-color: darkorange;
+   
+}
+
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+.main-nav li
+{
+    display: inline-block;
+    
+}
+
+.main-nav li a
+{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    background-color: darkorange;
+}
+.logo img
+{
+    padding-top: auto;
+    width: 7%;
+    height: auto;
+   float: left;
+
+}
+
+.row
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+/*---regestration_page_section---*/
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],input[type="email"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+
+.signinbox{
+    width: 420px;
+    height: 850px;
+    background: #000;
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+.signinbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signinbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signinbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signinbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.signinbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
+
+
+/*---pricing_page_section---*/
+
+.diabox{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 90px 30px;
+}
+
+.diabox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.diabox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.avatar1{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+.diabox2{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 90%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.diabox2 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.diabox2 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.avatar2{
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+.diabox3{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.diabox3 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.diabox3 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.avatar3{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+
+.diabox4{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 90%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.diabox4 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.diabox4 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.avatar4{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+.diabox5{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 90px 30px;
+}
+
+.diabox5 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.diabox5 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.avatar5{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+
+/*button part */
+
+.btn1
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn1 li
+{
+    display: inline-block;
+    
+}
+
+.btn1 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn1 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+.btn2
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn2 li
+{
+    display: inline-block;
+    
+}
+
+.btn2 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn2 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+.btn3
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn3 li
+{
+    display: inline-block;
+    
+}
+
+.btn3 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn3 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+.btn4
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn4 li
+{
+    display: inline-block;
+    
+}
+
+.btn4 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn4 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+.btn5
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn5 li
+{
+    display: inline-block;
+    
+}
+
+.btn5 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn5 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}

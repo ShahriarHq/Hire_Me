@@ -1,0 +1,208 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic2.jpg);
+    
+    
+    height :100vh;
+    background-size: cover;
+    background-position: center;
+}
+*/
+
+
+/*---home_page_section---*/
+
+.reg-nav
+{
+    float: right;
+    
+    list-style: none;
+    margin-top:10px;
+   margin-right: 10px;
+    
+}
+
+.reg-nav li
+{
+  display: inline-block;
+   
+}
+
+.reg-nav li a
+{
+    color: black;
+    text-decoration: none;
+    
+    font-family: "roboto", sans-serif;
+    font-size: 10px;
+}
+
+.reg-nav li a:hover
+{
+    background-color: darkorange;
+   
+}
+
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+.main-nav li
+{
+    display: inline-block;
+    
+}
+
+.main-nav li a
+{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    background-color: darkorange;
+}
+.logo img
+{
+    padding-top: auto;
+    width: 7%;
+    height: auto;
+   float: left;
+    
+
+}
+
+.row
+{
+    width: auto ;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+/*---pricing horly part---*/
+
+.prbox1{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.c1{
+   
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    
+}
+.bookbtn li a
+{
+    float: right;
+    
+    list-style: none;
+    margin-top:-10px;
+   margin-right: 10px;
+    
+    color: white;
+    text-decoration: none;
+    
+    
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    background-color:blue;
+    
+}
+.bookbtn a:hover
+{
+   background-color: darkorange;
+}
+
+
+.prbox2{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.c2{
+   
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    
+}
+
+
+.prbox3{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 90%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.c3{
+   
+    border-radius: 10%;
+    position: absolute;
+    top: 10px;
+    
+}
+
+.prbox4{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.c4{
+   
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    
+}

@@ -1,0 +1,831 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic2.jpg);
+    
+    
+    height :100vh;
+    background-size: cover;
+    background-position: center;
+}
+*/
+
+
+/*---home_page_section---*/
+
+.reg-nav
+{
+    float: right;
+    
+    list-style: none;
+    margin-top:10px;
+   margin-right: 10px;
+    
+}
+
+.reg-nav li
+{
+  display: inline-block;
+   
+}
+
+.reg-nav li a
+{
+    color: black;
+    text-decoration: none;
+    
+    font-family: "roboto", sans-serif;
+    font-size: 10px;
+}
+
+.reg-nav li a:hover
+{
+    background-color: darkorange;
+   
+}
+
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+.main-nav li
+{
+    display: inline-block;
+    
+}
+
+.main-nav li a
+{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    background-color: darkorange;
+}
+.logo img
+{
+    padding-top: auto;
+    width: 7%;
+    height: auto;
+   float: left;
+
+}
+
+.row
+{
+    width: auto;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+/*---regestration_page_section---*/
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],input[type="email"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+
+.signinbox{
+    width: 420px;
+    height: 800px;
+    background: #000;
+    color: #fff;
+    top: 70%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+.signinbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signinbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signinbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signinbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.signinbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
+/*---package_page_section---*/
+
+.pabox{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.pabox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.pabox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.paavatar1{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+.pabox2{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 90%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.pabox2 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.pabox2 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.paavatar2{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+.pabox3{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.pabox3 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.pabox3 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.paavatar3{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+
+.pabox4{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.pabox4 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.pabox4 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.paavatar4{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+.pabox5{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+.pabox5 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    
+}
+
+.pabox5 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.paavatar5{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+.pabox6{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 90%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+}
+
+
+.paavatar6{
+    width: 180px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 50px);
+}
+
+/*--------------button part --------------*/
+
+.btn1
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn1 li
+{
+    display: inline-block;
+    
+}
+
+.btn1 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn1 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+.btn2
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn2 li
+{
+    display: inline-block;
+    
+}
+
+.btn2 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn2 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+.btn3
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn3 li
+{
+    display: inline-block;
+    
+}
+
+.btn3 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn3 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+.btn4
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn4 li
+{
+    display: inline-block;
+    
+}
+
+.btn4 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn4 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+.btn5
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn5 li
+{
+    display: inline-block;
+    
+}
+
+.btn5 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn5 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+.btn6
+{
+    float: right;
+    list-style: none;
+    margin-top:50px;
+   
+}
+btn6 li
+{
+    display: inline-block;
+    
+}
+
+.btn6 li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.btn6 li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+/*--- Daily inside dhaka Part---- */
+
+.BTbox{
+    width: 420px;
+    height: 650px;
+    background: #000;
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+.BTbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.BTbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.BTbox input[type="text"],input[type="file"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.BTbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #6CC417;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.BTbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.avatar2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+/*---pricing inside part---*/
+
+.prbox1{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.c1{
+   
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    
+}
+.bookbtn
+{
+    float: right;
+    list-style: none;
+    margin-top:0px;
+   
+}
+.bookbtn li
+{
+    display: inline-block;
+    
+}
+
+.bookbtn li a
+{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.bookbtn li a:hover
+{
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+
+.prbox2{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.c2{
+   
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    
+}
+
+
+.prbox3{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 40%;
+    left: 90%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.c3{
+   
+    border-radius: 10%;
+    position: absolute;
+    top: 10px;
+    
+}
+
+.prbox4{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.c4{
+   
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    
+}
+
